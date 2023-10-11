@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![image](https://github.com/JotinhaPorto/eccomerce-store/assets/122660604/e6c28a46-ad77-47ef-a6e0-dec6f746b8d1)# E-commerce Store - README
 
-## Getting Started
+## Visão Geral
 
-First, run the development server:
+O projeto E-commerce Store é uma plataforma de compras online que permite aos usuários explorar e comprar uma variedade de produtos. Os produtos são alimentados por uma API externa fornecida por outra aplicação (em desenvolvimento), onde os itens são gerenciados e atualizados.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Funcionalidades Principais
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Página Inicial:**
+  - A página inicial exibe o nome da loja, categorias, carrinho, um outdoor principal e produtos em destaque. A visibilidade dos produtos em destaque é controlada por um booleano vindo do painel de administração da aplicação externa.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Categorias:**
+  - Os usuários podem navegar por diferentes categorias de produtos, visualizando o outdoor da categoria, com a opção de filtrar por tamanho e cor por meio de query strings os produtos.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Produtos:**
+  - Os usuários podem acessar informações detalhadas sobre cada produto , aparecendo produtos sugeridos que são produtos da mesma categoria, tendo também como ver uma imagem do produto e opções para expandir o produto na página atual ou adicionar ao carrinho.
 
-## Learn More
+- **Expandir Produto:**
+  - Ao passar o mouse sobre a imagem do produto ou o próprio produto, os usuários podem optar por expandir o produto em um modal que exibe todas as informações detalhadas e oferece a opção de adicionar o produto ao carrinho.
 
-To learn more about Next.js, take a look at the following resources:
+- **Carrinho de Compras:**
+  - Os produtos adicionados ao carrinho são exibidos na página de carrinho, juntamente com o valor total da compra. Os usuários podem remover itens do carrinho, e o valor é atualizado automaticamente.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Tecnologias Utilizadas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Next.js:**
+  - A aplicação é construída usando Next.js, que oferece recursos avançados de roteamento, layouts, pages, links e navegação, route groups e dynamic routes.
 
-## Deploy on Vercel
+- **Zustand:**
+  - Zustand é usado para gerenciamento de estado global na aplicação, tornando o compartilhamento de dados entre componentes mais eficiente.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Zustand-Persist:**
+  - Utiliza o pacote Zustand-Persist para persistência de dados, permitindo que o estado global seja mantido entre sessões de usuário.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **react-hot-toast:**
+  - react-hot-toast é usado para notificações na aplicação, tornando mais fácil informar o usuário sobre ações bem-sucedidas ou erros.
+
+- **react-icons:**
+  - React Icons é utilizado para adicionar ícones interativos na aplicação.
+ ![image ](https://github.com/JotinhaPorto/eccomerce-store/assets/122660604/75249070-c410-4cd7-a2f5-6ae0a64a8c21)
+![image](https://github.com/JotinhaPorto/eccomerce-store/assets/122660604/1b7638c1-ebc0-4172-9ecb-dd91c6754e56)
+
+
+### MOBILE 
+![image](https://github.com/JotinhaPorto/eccomerce-store/assets/122660604/c7a66ea7-a6df-4ce6-823c-6cb18b20f3d7)
+![image](https://github.com/JotinhaPorto/eccomerce-store/assets/122660604/717a80a2-2b14-4eaa-b4d7-3638c72f6207)
+
+
+ ### OBS : ainda não foi feita a implementação com sistema de pagamento 
