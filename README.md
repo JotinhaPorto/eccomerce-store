@@ -37,13 +37,13 @@ O projeto E-commerce Store é uma plataforma de compras online que permite aos u
 
 - **react-icons:**
   - React Icons é utilizado para adicionar ícones interativos na aplicação.
- ![image ](https://github.com/JotinhaPorto/eccomerce-store/assets/122660604/75249070-c410-4cd7-a2f5-6ae0a64a8c21)
+
+### Desktop 
 ![image](https://github.com/JotinhaPorto/eccomerce-store/assets/122660604/1b7638c1-ebc0-4172-9ecb-dd91c6754e56)
 
 
-### MOBILE 
+### Mobile 
 ![image](https://github.com/JotinhaPorto/eccomerce-store/assets/122660604/c7a66ea7-a6df-4ce6-823c-6cb18b20f3d7)
-![image](https://github.com/JotinhaPorto/eccomerce-store/assets/122660604/717a80a2-2b14-4eaa-b4d7-3638c72f6207)
 
 
  ### OBS : ainda não foi feita a implementação com sistema de pagamento 
